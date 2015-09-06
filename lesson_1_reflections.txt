@@ -5,7 +5,7 @@ How could having easy access to the entire history of a file make you a more eff
 git log - provide history of file
 git --no-pager log --reverse --decorate=short --pretty=oneline
 
-git diff
+git diff hash1 hash2 - compare two commits (versions in the repo)
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 - Automatic systems help prevent data loss in case of a computer failure
@@ -19,11 +19,15 @@ How can you use the commands git log and git diff to view the history of files?
 - git log shows a descriptive message for each commit and git diff shows what changed between two commits
 
 git checkout id_hash - reset all files to the specified commit version in the repository. backout changes
-git checkout - checkout most recent head version
 git checkout -- file1 file2 - revert specified files
 
 git init
 
 git status
 
+git diff - compares [working directory] with [staging area]
+git diff --staged - compaires [staging area] with [Most Recent Commit]
 
+git reset --hard - revert/undo changes in working directory
+
+git checkout master

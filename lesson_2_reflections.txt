@@ -9,6 +9,10 @@ How is the staging area different from the working directory and the repository?
 - The Working Directory contains all to unmodified and modified files. The Staging Area contains the modified files that you want to commit. These
 files are usually related to one another and represent a conceptual unit of work.
 
+How can you use the staging area to make sure you have one commit per logical change?
+- Just git add only the files related the the logical change. This will place these related files into the staging area, and these
+- related files can be committed as a unit.
+
 ==========
 
 Udacity Git Commit Message Style Guide
