@@ -1,0 +1,36 @@
+git clone
+
+git log - provide history of file
+git --no-pager log --reverse --decorate=short --pretty=oneline
+
+git diff hash1 hash2 - compare two commits (versions in the repo)
+
+git checkout id_hash - reset all files to the specified commit version in the repository. backout changes
+git checkout -- file1 file2 - revert specified files
+
+git init
+
+git status
+
+git diff - compares [working directory] with [staging area]
+git diff --staged - compaires [staging area] with [Most Recent Commit]
+
+git reset --hard - revert/undo changes in working directory
+
+git checkout master
+
+git branch
+git branch easy-mode
+git checkout easy-mode
+
+
+
+
+
+
+
+
+
+
+
+
