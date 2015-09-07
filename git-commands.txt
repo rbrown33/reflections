@@ -27,6 +27,7 @@ git checkout easy-mode
 git checkout -b new-branch-name - shortcut for above two commands
 
 git log --graph master origin/coins --oneline
+   gliffy and yUML are two graphing programs
 
 git show - show the changes made in a commit. similiar to git diff but you don't need to define the parent
 
