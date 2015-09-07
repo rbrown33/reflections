@@ -34,8 +34,11 @@ git show - show the changes made in a commit. similiar to git diff but you don't
 git branch -d coins - This deletes the branch label (coins), but the work done on the branch remains
 
 
+git config --global credential.helper 'cache --timeout=3600'
 
-
+git remote add origin https://github.com/rbrown33/reflections.git
+git remote
+git push -u origin master
 
 
 
