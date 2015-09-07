@@ -28,8 +28,9 @@ git checkout -b new-branch-name - shortcut for above two commands
 
 git log --graph master origin/coins --oneline
 
+git show - show the changes made in a commit. similiar to git diff but you don't need to define the parent
 
-
+git branch -d coins - This deletes the branch label (coins), but the work done on the branch remains
 
 
 
