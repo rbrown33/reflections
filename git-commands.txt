@@ -38,7 +38,10 @@ git config --global credential.helper 'cache --timeout=3600'
 
 git remote add origin https://github.com/rbrown33/reflections.git
 git remote
+git remote -v
+git push origin master
 git push -u origin master
 
+git pull origin master
 
 
