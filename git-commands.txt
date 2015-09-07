@@ -20,10 +20,13 @@ git reset --hard - revert/undo changes in working directory
 git checkout master
 
 git branch
+
 git branch easy-mode
 git checkout easy-mode
 
+git checkout -b new-branch-name - shortcut for above two commands
 
+git log --graph master origin/coins --oneline
 
 
 
